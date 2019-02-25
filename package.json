@@ -6,9 +6,8 @@
     "scripts": {
         "start": "node ./bin/www",
         "test": "",
-        "dev": "nodemon app.js",
         "build": "gulp",
-        "setup": "npm install --save-dev gulp gulp=imagemin gulp-cache gulp-plumber gulp-rename gulp-concat gulp-uglify browser-sync gulp-csslint gulp-minify-css"
+        "setup": "npm install --save-dev gulp gulp-imagemin gulp-cache gulp-plumber gulp-rename gulp-concat gulp-uglify browser-sync gulp-csslint gulp-minify-css"
     },
     "dependencies": {
         "nodemon": "^1.17.1",
